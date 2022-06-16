@@ -37,9 +37,9 @@ h1 {
   font-size: 9.5rem;
   line-height: 8rem;
   margin-bottom: 0;
+  font-weight: 200;
   height: 8rem;
   font-family: 'Trirong', sans-serif;
-  font-weight: 400;
   margin-left: 15%;
   padding: 0;
   position: relative;
@@ -71,21 +71,37 @@ p {
   margin-left: 15%;
   margin-bottom: 3%;
 }
-.text{
-  margin:0;
+
+.text {
+  margin: 0;
   display: block;
 }
+
 .hello {
   position: relative;
 }
+
 .you {
-  font-weight: 800;
   position: relative;
+  font-weight: 900;
 }
+
 .intro {
   position: relative;
 }
 
+.hello-text {
+  animate-duration: 0.6s;
+}
+
+.you-text {
+  font-weight: 600;
+  animate-duration: 0.6s;
+}
+
+.intro-text{
+  animate-duration: 1.2s;
+}
 /* link section */
 .ctm {
   font-style: italic;
